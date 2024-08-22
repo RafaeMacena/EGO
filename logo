@@ -1,9 +1,9 @@
 git clone https://github.com/RafaeMacena/assets
 cd assets
-mkdir -p blockchains/polygon/assets/<0xb9D46277fcdA374b0594a46320dA80CEab2aE78b>
-cp /caminho/para/sua/logo.png blockchains/polygon/assets/<0xb9D46277fcdA374b0594a46320dA80CEab2aE78b>/logo.png
+mkdir -p blockchains/polygon/assets/0xb9D46277fcdA374b0594a46320dA80CEab2aE78b
+cp /caminho/para/sua/logo.png blockchains/polygon/assets/0xb9D46277fcdA374b0594a46320dA80CEab2aE78b/logo.png
 git add .
-git commit -m "Adiciona imagem da logo para <EgoCoin>"
-git push origin master
+git commit -m "Adiciona imagem da logo para EgoCoin"
+git push origin main  # ou git push origin master, dependendo do branch
 
 
